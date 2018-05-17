@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../libs/libopenni2.a  CMakeFiles/openni2.dir/openni2.cpp.o
+/usr/bin/ranlib ../libs/libopenni2.a

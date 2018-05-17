@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LaneDetection"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\lane\;CMake Files\lane\laneclass\;CMake Files\lane\normal_lane\;CMake Files\lane\green_lane\;CMake Files\lane\fuzzy\;CMake Files\lane\secret_lane\;CMake Files\detector\;CMake Files\getconf\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nc/Desktop/prototype/lane"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lanedetec">
+				<Option output="/home/nc/Desktop/prototype/build/libs/liblanedetec.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/Makefile&quot;  VERBOSE=1 lanedetec"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lanedetec/fast">
+				<Option output="/home/nc/Desktop/prototype/build/libs/liblanedetec.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/Makefile&quot;  VERBOSE=1 lanedetec/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="laneclass">
+				<Option output="/home/nc/Desktop/prototype/build/libs/liblaneclass.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane/laneclass"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/laneclass/Makefile&quot;  VERBOSE=1 laneclass"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/laneclass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/laneclass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/laneclass/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="laneclass/fast">
+				<Option output="/home/nc/Desktop/prototype/build/libs/liblaneclass.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane/laneclass"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/laneclass/Makefile&quot;  VERBOSE=1 laneclass/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/laneclass/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/laneclass/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/laneclass/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="normal_lane">
+				<Option output="/home/nc/Desktop/prototype/build/libs/libnormal_lane.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane/normal_lane"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/normal_lane/Makefile&quot;  VERBOSE=1 normal_lane"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/normal_lane/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/normal_lane/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/normal_lane/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="normal_lane/fast">
+				<Option output="/home/nc/Desktop/prototype/build/libs/libnormal_lane.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane/normal_lane"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/normal_lane/Makefile&quot;  VERBOSE=1 normal_lane/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/normal_lane/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/normal_lane/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/normal_lane/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="green_lane">
+				<Option output="/home/nc/Desktop/prototype/build/libs/libgreen_lane.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane/green_lane"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 green_lane"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="green_lane/fast">
+				<Option output="/home/nc/Desktop/prototype/build/libs/libgreen_lane.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane/green_lane"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 green_lane/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fuzzy">
+				<Option output="/home/nc/Desktop/prototype/build/libs/libfuzzy.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane/fuzzy"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/fuzzy/Makefile&quot;  VERBOSE=1 fuzzy"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/fuzzy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/fuzzy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/fuzzy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fuzzy/fast">
+				<Option output="/home/nc/Desktop/prototype/build/libs/libfuzzy.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane/fuzzy"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/fuzzy/Makefile&quot;  VERBOSE=1 fuzzy/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/fuzzy/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/fuzzy/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/fuzzy/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="secret">
+				<Option output="/home/nc/Desktop/prototype/build/libs/libsecret.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane/secret_lane"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/secret_lane/Makefile&quot;  VERBOSE=1 secret"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/secret_lane/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/secret_lane/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/secret_lane/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="secret/fast">
+				<Option output="/home/nc/Desktop/prototype/build/libs/libsecret.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane/secret_lane"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/secret_lane/Makefile&quot;  VERBOSE=1 secret/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/secret_lane/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/secret_lane/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/secret_lane/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nc/Desktop/prototype/lane/debug.cpp">
+			<Option target="lanedetec"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/debug.h">
+			<Option target="lanedetec"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/frameprocess.cpp">
+			<Option target="lanedetec"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/frameprocess.h">
+			<Option target="lanedetec"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/fuzzy/fuzzylogic.cpp">
+			<Option target="fuzzy"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/fuzzy/fuzzylogic.h">
+			<Option target="fuzzy"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/green.cpp">
+			<Option target="lanedetec"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/green.h">
+			<Option target="lanedetec"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/green_lane/greenimageprocess.cpp">
+			<Option target="green_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/green_lane/greenimageprocess.h">
+			<Option target="green_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/green_lane/greenlaneprocess.cpp">
+			<Option target="green_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/green_lane/greenlaneprocess.h">
+			<Option target="green_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/laneclass/lane.cpp">
+			<Option target="laneclass"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/laneclass/lane.h">
+			<Option target="laneclass"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/laneclass/layer.cpp">
+			<Option target="laneclass"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/laneclass/layer.h">
+			<Option target="laneclass"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/laneclass/line.cpp">
+			<Option target="laneclass"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/laneclass/line.h">
+			<Option target="laneclass"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/laneclass/road.cpp">
+			<Option target="laneclass"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/laneclass/road.h">
+			<Option target="laneclass"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/laneclass/roadmultilanes.cpp">
+			<Option target="laneclass"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/laneclass/roadmultilanes.h">
+			<Option target="laneclass"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/normal_lane/laneimageprocess.cpp">
+			<Option target="normal_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/normal_lane/laneimageprocess.h">
+			<Option target="normal_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/normal_lane/laneprocess.cpp">
+			<Option target="normal_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/normal_lane/laneprocess.h">
+			<Option target="normal_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/normal_lane/lineprocess.cpp">
+			<Option target="normal_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/normal_lane/lineprocess.h">
+			<Option target="normal_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/normal_lane/pointsprocess.cpp">
+			<Option target="normal_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/normal_lane/pointsprocess.h">
+			<Option target="normal_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/secret.cpp">
+			<Option target="lanedetec"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/secret.h">
+			<Option target="lanedetec"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/secret_lane/secretlaneprocess.cpp">
+			<Option target="secret"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/secret_lane/secretlaneprocess.h">
+			<Option target="secret"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/status.cpp">
+			<Option target="lanedetec"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/status.h">
+			<Option target="lanedetec"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lane\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/laneclass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lane\laneclass\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/normal_lane/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lane\normal_lane\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/green_lane/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lane\green_lane\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/fuzzy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lane\fuzzy\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/secret_lane/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lane\secret_lane\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/detector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\detector\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/getconf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\getconf\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

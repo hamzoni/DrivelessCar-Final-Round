@@ -1,0 +1,86 @@
+LEFT = 1;
+DEBUG = 0;
+WRITE_VIDEO = 0;
+WAIT_KEY = 40;
+// Re0ion of lane
+X_CUT = 0
+Y_CUT = 80
+Y_BOT_OFFSET = 0
+// Region of birdview which will be taked from region of lane
+W_ROI = 400
+H_ROI = 320
+Y_ROI = 0
+
+// config for image processing
+THRES = 240;
+NUMLAYERS = 45;
+MIN_AREA_CNT = 30
+MIN_WIDTH_CNT = 50;
+MIN_AREA_WHITE = 200;
+
+DIS_FAR_CAR = 140;
+DIS_NEXT_CAR = 200;
+DOWN_Y = 160;
+DOWN_Y_INJEC = 140;
+DOWN_Y_FAR = 20;
+DOWN_Y_OBJ = 27;
+DOWN_Y_LOST_LANE = 160;
+DIS_EXTERNAL = 100;
+
+// Distace between two line, use for processing one lane;
+DIS_GEN_LINE_TOP = 120;
+DIS_GEN_LINE_BOT = 120;
+MAX_DIS_BOT = 250;
+
+// Noise lane
+MAX_ANGLE_COMBINE_LANES = 40;
+MAX_X_DIS_COMBINE_LINES = 20;
+MAX_ANGLE_TWO_LANES = 20;
+RATIO_POINTS_LR = 30;
+RATIO_DIS_TOP_BOT = 100;
+
+/*===================== OBJ ============== */
+MIN_DIS_CAR_OBJ = 0;
+MAX_DIS_CAR_OBJ = 300;
+DIS_TURN_OBJ = 30;
+CLOSE_PROXIMITY_CAR_OBJ = 10;
+
+// Region of layer
+
+MAX_DIS_TWO_POINTS = 30
+MAX_ANGLE_TWO_POINTS = 40;
+MIN_POINTS = 3;
+MIN_POINTS_AFTER_COMBINE = 6;
+MIN_LEN_LANE = 100;
+
+// distance between Intersection and lowest line, use for prosseing road injection
+DIS_ROAD_INJUNCTION = 150;
+SLOPE_MAX_LINE_INJUNCTION = 4;
+MIN_X_INJUNCTION = 100;
+DIS_TOP_INJ = 300;
+DIS_BOT_INJ = 200;
+
+STOP = 0;
+FOLLOW_LANE = 0;
+
+// birdview
+ALPHA = 43
+DIST = 164
+SCALE_X = 15;
+Y = 163;
+
+X = 1;
+F = 1500
+
+WIDTH = 320
+HEIGHT = 240
+
+//DIST = 163
+//Y = 98;
+//SCALE_X = 30;
+
+//ALPHA = 43
+//DIST = 112
+//SCALE_X = 15;
+//Y = 193;
+

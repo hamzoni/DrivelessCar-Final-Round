@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../build/libs/liblanedetec.a  CMakeFiles/lanedetec.dir/debug.cpp.o CMakeFiles/lanedetec.dir/green.cpp.o CMakeFiles/lanedetec.dir/frameprocess.cpp.o CMakeFiles/lanedetec.dir/status.cpp.o CMakeFiles/lanedetec.dir/secret.cpp.o
+/usr/bin/ranlib ../build/libs/liblanedetec.a

@@ -1,0 +1,52 @@
+#ifndef HAAR_H
+#define HAAR_H
+
+#if !(defined(SIMD_USE_INSIDE) && !defined(SIMD_OPENCV_ENABLE))
+#ifdef SIMD_USE_INSIDE
+#endif
+#include <iostream>
+#include <string>
+#include "opencv2/opencv.hpp"
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/imgproc/imgproc.hpp>
+#include <opencv2/imgcodecs/imgcodecs.hpp>
+#include <opencv2/ml/ml.hpp>
+#ifndef SIMD_OPENCV_ENABLE
+#define SIMD_OPENCV_ENABLE
+#endif
+#include "Simd/SimdDetection.hpp"
+#include "Simd/SimdDrawing.hpp"
+
+class Haar{
+        
+	std::string str = "TURN RIGHT";
+	int flag =2;
+	int LEFT, RIGHT, STOP;
+	int dis_x, dis_y;
+
+     public:
+	typedef Simd::Detection<Simd::Allocator> Detection;
+	typedef Simd::Point<ptrdiff_t> Point;
+
+	Detection stop1, stop2, right, left;
+	void init(std::string source);
+	void get_closest(cv::Vec3b &pixcel);
+	bool get_mask_color(cv::Mat &src, cv::Mat &dst);
+	cv::Mat crop_h(cv::Mat frame, int W, int H);
+	int detect_haar(cv::Mat frame , int NGABA_H);
+	int dis_stop(cv::Mat frame);
+	//int getArea(cv::Rect);
+	//int find_red(cv::Mat &src);
+        //int find_blue(cv::Mat &src);
+	float getDir(float y, float x);
+
+	cv::Rect cut_contour(cv::Mat &mask);
+
+};
+
+namespace signhaar{
+    extern Haar haar;
+}
+#endif
+#endif
+

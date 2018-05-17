@@ -1,0 +1,215 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html" />
+<title>Simd Library Release Notes (2018)</title>
+</head>
+<body> <center><table width=1024><tr><td>
+<a id="HOME"><a>
+<center>
+<img width="200" height="100" src="logo.png">
+<h1>Simd Library Release Notes (2018).</h1>
+<a href="index.html">Home</a> |
+<a href="2018.html">Release Notes</a> | 
+<a href="download.html">Download</a> | 
+<a href="help/index.html">Documentation</a> | 
+<a href="https://github.com/ermig1979/Simd/issues">Issues</a> | 
+<a href="http://github.com/ermig1979/Simd" target="_top">GitHub</a> | 
+<a href="http://sourceforge.net/projects/simd/?source=directory" target="_top">SourceForge</a>
+</center>
+<hr/> 
+</td></tr><tr><td>
+
+<center>
+ <a href="2018.html">2018</a> |
+ <a href="2017.html">2017</a> |
+ <a href="2016.html">2016</a> |
+ <a href="2015.html">2015</a> |
+ <a href="2014.html">2014</a> |
+ <a href="2013.html">2013</a>
+</center>
+
+<hr/>
+
+<a href="#HOME">Home</a> 
+<hr/>
+<h3 id="R064">April 2, 2018 (version 4.1.64.1388)</h3> 
+
+<h4>Algorithms</h4>
+<h5>New features</h5>
+<ul>
+ <li>Optional including of SimdVersion.h file in SimdLib.cpp.</li>
+ <li>Conversion of Simd::View to Tensorflow::Tensor.</li>
+ <li>Base implementation, SSE, AVX, AVX2 and AVX-512F optimizations of function Gemm32fNN.</li>
+ <li>Function ResizeAreaGray</li>
+</ul>
+<h5>Bug fixing</h5>
+<ul>
+ <li>Error in base implementation, SSE2, AVX2 and AVX-512F optimizations of function Uint8ToFloat32.</li>
+ <li>Error in SSE2 optimization of function ReduceGray2x2.</li>
+</ul>
+
+<h4>Test framework</h4>
+<h5>New features</h5>
+<ul>
+ <li>Tests for verifying functionality of function Gemm32fNN.</li>
+</ul>
+<h5>Bug fixing</h5>
+<ul>
+ <li>Error in special test of Simd::Detection (Debug only).</li>
+</ul>
+
+<a href="#HOME">Home</a> 
+<hr/>
+<h3 id="R063">March 1, 2018 (version 4.1.63.1372)</h3> 
+
+<h4>Algorithms</h4>
+<h5>New features</h5>
+<ul>
+ <li>Base implementation, SSE, AVX, AVX2 and AVX-512BW optimizations of function CosineDistance32f.</li>
+ <li>Base implementation, AVX2 and AVX-512BW optimizations of function CosineDistance16f.</li>
+ <li>NEON optimization of function ValueSquareSum.</li>
+ <li>Base implementation, SSE, AVX and AVX-512F optimizations of function SynetAddBias.</li>
+ <li>Base implementation, SSE, AVX, AVX2 and AVX-512F optimizations of function SynetScaleLayerForward.</li>
+ <li>Base implementation, SSE, AVX, AVX2 and AVX-512F optimizations of function SynetEltwiseLayerForward.</li>
+ <li>Base implementation, SSE, AVX, AVX2 and AVX-512F optimizations of function SynetScaleLayerForward.</li>
+ <li>Base implementation, SSE2, AVX2 and AVX-512F optimizations of function SynetLrnLayerCrossChannels.</li>
+</ul>
+<h5>Improving</h5>
+<ul>
+ <li>NEON optimization of function ResizeBilinear.</li>
+</ul>
+<h5>Bug fixing</h5>
+<ul>
+ <li>Visual Studio 2012 compiler errors.</li>
+ <li>Clang compiler warning in file TestCheckC.c.</li>
+</ul>
+
+<h4>Test framework</h4>
+<h5>New features</h5>
+<ul>
+ <li>Tests for verifying functionality of function CosineDistance32f.</li>
+ <li>Tests for verifying functionality of function CosineDistance16f.</li>
+ <li>Tests for verifying functionality of NEON optimization of function ValueSquareSum.</li>
+ <li>Tests for verifying functionality of function SynetAddBias.</li>
+ <li>Tests for verifying functionality of function SynetScaleLayerForward.</li>
+ <li>Tests for verifying functionality of function SynetEltwiseLayerForward.</li>
+ <li>Tests for verifying functionality of function SynetLrnLayerCrossChannels.</li>
+</ul>
+
+<a href="#HOME">Home</a> 
+<hr/>
+<h3 id="R062">February 1, 2018 (version 4.1.62.1359)</h3> 
+
+<h4>Algorithms</h4>
+<h5>New features</h5>
+<ul>
+ <li>Base implementation, SSE2, AVX2 and AVX-512BW optimizations of function ValueSquareSum.</li> 
+</ul>
+<h5>Improving</h5>
+<ul>
+ <li>AVX2 and AVX-512F optimizations of function NeuralConvolutionForward.</li>
+ <li>Updated tinyxml2 library.</li>
+</ul>
+<h5>Bug fixing</h5>
+<ul>
+ <li>Crash in function NeuralConvolutionForward for small images.</li>
+</ul>
+
+<h4>Test framework</h4>
+<h5>New features</h5>
+<ul>
+ <li>Tests for verifying functionality of function ValueSquareSum.</li>
+</ul>
+
+<a href="#HOME">Home</a> 
+<hr/>
+<h3 id="R061">January 3, 2018 (version 4.1.61.1351)</h3> 
+
+<h4>Algorithms</h4>
+<h5>New features</h5>
+<ul>
+ <li>Method Font::Draw.</li>
+ <li>Base implementation, SSE2, AVX2 and AVX-512BW optimizations of function FillPixel.</li>
+ <li>Base implementation, SSE2, SSSE3, AVX2 and AVX-512BW optimizations of function AlphaFilling.</li>
+ <li>Base implementation, SSE2, AVX2 and AVX-512F optimizations of function NeuralPow.</li>
+ <li>SSE2, AVX2 and AVX-512F optimizations of function NeuralSigmoid.</li>
+ <li>SSE2, AVX2 and AVX-512F optimizations of function NeuralTanh.</li>
+</ul>
+<h5>Bug fixing</h5>
+<ul>
+ <li>Crash in AVX-512BW optimization of function ConditionalSquareGradientSum.</li>
+ <li>Error in AVX-512BW optimization of function NeuralAddConvolution3x3Sum.</li>
+ <li>Error in AVX-512BW optimization of function NeuralAddConvolution4x4Sum.</li>
+ <li>Error in AVX-512BW optimization of function NeuralAddConvolution5x5Sum.</li>
+ <li>Clang compiler bug in file SimdFont.hpp.</li>
+ <li>GCC-6 compiler warning for Array typedef.</li>
+ <li>Visual Studio 2013 compiler error in file SimdSse2Neural.cpp.</li>
+ <li>Visual Studio 2013 compiler error in file SimdSse3Neural.cpp.</li>
+ <li>Visual Studio 2013 compiler error in file SimdSse41HogLite.cpp.</li>
+ <li>Visual Studio 2013 compiler error in file SimdAvx2Neural.cpp.</li>
+</ul>
+<h5>Improving</h5>
+<ul>
+ <li>AVX-512BW optimization of function AbsDifferenceSums3x3 for Visual Studio.</li>
+ <li>AVX-512BW optimization of function AbsDifferenceSums3x3Masked for Visual Studio.</li>
+ <li>SSE3, AVX, AVX2 and AVX-512F optimizations of function NeuralConvolutionForward.</li>
+</ul>
+
+<h4>Test framework</h4>
+<h5>New features</h5>
+<ul>
+ <li>Tests for verifying functionality of function FillPixel.</li>
+ <li>Tests for verifying functionality of function AlphaFilling.</li>
+ <li>Tests for verifying functionality of function NeuralPow.</li>
+ <li>Tests for verifying SSE2, AVX2 and AVX-512F optimizations of function NeuralSigmoid.</li>
+ <li>Tests for verifying SSE2, AVX2 and AVX-512F optimizations of function NeuralTanh.</li>
+</ul>
+<h5>Bug fixing</h5>
+<ul>
+ <li>Wrong data tests of function HogLiteFilterFeatures.</li>
+ <li>Wrong data tests of function HogLiteResizeFeatures.</li>
+ <li>Wrong data tests of function HogLiteCompressFeatures.</li>
+ <li>Wrong data tests of function HogLiteFilterSeparable.</li>
+ <li>Wrong data tests of function NeuralAddConvolution5x5Forward.</li>
+ <li>Wrong data tests of function HogFilterSeparable.</li>
+ <li>Wrong data tests of function SquaredDifferenceSum16f.</li>
+ <li>Wrong data tests of function SquaredDifferenceKahanSum32f.</li>
+ <li>Visual Studio 2013 compiler error in file TestData.cpp.</li>
+</ul>
+
+<h4>Infrastructure</h4>
+<h5>New features</h5>
+<ul>
+ <li>LIBRARY parameter to build Simd Library as STATIC or SHARED library.</li>
+ <li>AVX512 parameter to build Simd Library with (or without) AVX-512.</li>
+ <li>Visual Studio 2012 project files.</li>
+ <li>Visual Studio 2013 project files.</li>
+</ul>
+
+<h4>The use examples</h4>
+<h5>New features</h5>
+<ul>
+ <li>An example how to detect motion with using of Simd::Motion in the video captured by OpenCV.</li>
+</ul>
+
+<h4>Documentation</h4>
+<h5>New features</h5>
+<ul>
+ <li>An example how to detect motion with using of Simd::Motion in the video captured by OpenCV.</li>
+</ul>
+
+<a href="#HOME">Home</a> 
+<hr/> 
+
+<center>
+ <a href="2018.html">2018</a> |
+ <a href="2017.html">2017</a> |
+ <a href="2016.html">2016</a> | 
+ <a href="2015.html">2015</a> |
+ <a href="2014.html">2014</a> |
+ <a href="2013.html">2013</a>
+</center>
+
+<hr/> 
+
+</td> </tr> </table> </center> </body> </html>

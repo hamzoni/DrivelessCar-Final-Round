@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../build/libs/liblaneclass.a  CMakeFiles/laneclass.dir/lane.cpp.o CMakeFiles/laneclass.dir/layer.cpp.o CMakeFiles/laneclass.dir/line.cpp.o CMakeFiles/laneclass.dir/road.cpp.o CMakeFiles/laneclass.dir/roadmultilanes.cpp.o
+/usr/bin/ranlib ../../build/libs/liblaneclass.a

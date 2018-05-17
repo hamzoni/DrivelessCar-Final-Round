@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../build/libs/libnormal_lane.a  CMakeFiles/normal_lane.dir/laneimageprocess.cpp.o CMakeFiles/normal_lane.dir/laneprocess.cpp.o CMakeFiles/normal_lane.dir/lineprocess.cpp.o CMakeFiles/normal_lane.dir/pointsprocess.cpp.o
+/usr/bin/ranlib ../../build/libs/libnormal_lane.a

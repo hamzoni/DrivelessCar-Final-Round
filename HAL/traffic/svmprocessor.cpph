@@ -1,0 +1,39 @@
+#ifndef SVMPROCESSOR_H
+#define SVMPROCESSOR_H
+
+#include <opencv2/imgproc.hpp>
+#include <opencv2/highgui.hpp>
+#include <opencv2/ml/ml.hpp>
+#include <opencv2/objdetect.hpp>
+#include <iostream>
+
+using namespace cv;
+using namespace ml;
+using namespace std;
+
+class DetectorSVM {
+    public:
+        DetectorSVM();
+        Ptr<SVM> svm;
+        string model;
+};
+
+
+void load();
+
+void filter(Mat &hsv,Mat &mask);
+
+Rect pooling(Mat &mask, Mat &out, Mat &gray);
+
+vector<Rect> poolingMult(Mat &mask, Mat &gray, vector<Mat> &outs);
+
+int predict(Mat &test, Ptr<SVM> svm);
+
+string label(int &id);
+
+int detect(Mat &img, Ptr<SVM> svm);
+
+vector<int> detectMult(Mat &img);
+
+
+#endif // SVMPROCESSOR_H

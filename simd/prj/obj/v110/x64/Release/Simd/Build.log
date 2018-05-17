@@ -1,0 +1,28 @@
+﻿Build started 23.02.2018 9:55:43.
+     1>Project "D:\ErmIg\Simd\trunk\prj\vs2012\Simd.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         "D:\ErmIg\Simd\trunk\prj\vs2012\"\..\cmd\GetVersion.cmd
+         :VCEnd
+         Try to estimate SVN revision:
+         SubWCRev: 'D:\ErmIg\Simd\trunk'
+         Last committed at revision 1367
+         Mixed revision range 1366:1367
+         Local modifications found
+         Unversioned items found
+         SubWCRev: 'D:\ErmIg\Simd\trunk'
+         Last committed at revision 1367
+         Mixed revision range 1366:1367
+         Local modifications found
+         Unversioned items found
+         Current version: 4.1.62.1367
+         Last version: 4.1.62.1367
+         Skip updating of file "..\..\src\Simd\SimdVersion.h" because there are not any changes.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\bin\v110\x64\Release\Simd.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\bin\v110\x64\Release\Simd.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\bin\v110\x64\Release\Simd.lib" /MACHINE:X64 /ignore:4221 /DLL D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Simd\SimdLib.obj
+         D:\ErmIg\Simd\trunk\bin\v110\x64\Release\Alg.lib
+     1>LINK : fatal error LNK1181: cannot open input file 'gdi32.lib'
+     1>Done Building Project "D:\ErmIg\Simd\trunk\prj\vs2012\Simd.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.26

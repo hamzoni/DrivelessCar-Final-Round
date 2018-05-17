@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../build/libs/libfuzzy.a  CMakeFiles/fuzzy.dir/fuzzylogic.cpp.o
+/usr/bin/ranlib ../../build/libs/libfuzzy.a

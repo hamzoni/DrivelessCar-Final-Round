@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../build/libs/libgreen_lane.a  CMakeFiles/green_lane.dir/greenimageprocess.cpp.o CMakeFiles/green_lane.dir/greenlaneprocess.cpp.o
+/usr/bin/ranlib ../../build/libs/libgreen_lane.a

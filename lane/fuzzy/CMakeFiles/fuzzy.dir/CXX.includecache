@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nc/Desktop/prototype/lane/fuzzy/fuzzylogic.cpp
+fuzzylogic.h
+/home/nc/Desktop/prototype/lane/fuzzy/fuzzylogic.h
+carconf.h
+/home/nc/Desktop/prototype/lane/fuzzy/carconf.h
+iostream
+/home/nc/Desktop/prototype/lane/fuzzy/iostream
+
+/home/nc/Desktop/prototype/lane/fuzzy/fuzzylogic.h
+
+getconf/carconf.h
+readparam.h
+getconf/readparam.h
+
+getconf/readparam.h
+iostream
+-
+vector
+-
+map
+-
+fstream
+-
+string
+-
+sstream
+-
+algorithm
+-
+unistd.h
+-
+

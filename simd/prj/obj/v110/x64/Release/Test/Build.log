@@ -1,0 +1,69 @@
+﻿Build started 23.02.2018 9:55:44.
+     1>Project "D:\ErmIg\Simd\trunk\prj\vs2012\Test.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /ID:\ErmIg\Simd\trunk\prj\vs2012\\..\..\src /Zi /nologo /W3 /WX- /MP /O2 /Ob2 /Oi /Ot /GL /D _CONSOLE /D _MBCS /D WIN32 /D NDEBUG /Gm- /EHsc /MT /GS /Gy /fp:fast /Zc:wchar_t /Zc:forScope /Fo"D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\\" /Fd"D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\vc110.pdb" /Gd /TP /errorReport:prompt ..\..\src\Test\TestNeural.cpp
+         TestNeural.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\bin\v110\x64\Release\Test.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\bin\v110\x64\Release\Test.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\bin\v110\x64\Release\Test.lib" /MACHINE:X64 /ignore:4221 D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\Test.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestAddFeatureDifference.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestAnyToAny.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestAnyToBayer.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestAnyToBgra.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestAnyToYuv.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestBackground.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestBayerToBgr.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestBayerToBgra.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestBgr48pToBgra32.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestBinarization.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestCheckCpp.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestConditional.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestContour.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestCopy.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestCrc32.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestData.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestDeinterleave.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestDetection.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestDifferenceSum.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestDrawing.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestEdgeBackground.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestFill.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestFilter.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestFloat16.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestFloat32.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestFont.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestHistogram.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestHog.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestHogLite.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestHtml.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestImageMatcher.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestIntegral.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestInterference.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestInterleave.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestLog.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestMotion.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestNeural.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestOperation.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestPerformance.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestReduceGray.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestReorder.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestResize.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestSegmentation.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestShift.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestStatistic.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestStretchGray.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestSvm.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestSynet.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestTable.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestTexture.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestUtils.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestVideo.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestYuvToAny.obj
+         D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\obj\v110\x64\Release\Test\TestYuvToBgra.obj
+         D:\ErmIg\Simd\trunk\bin\v110\x64\Release\Simd.lib
+         D:\ErmIg\Simd\trunk\bin\v110\x64\Release\Alg.lib
+     1>LINK : fatal error LNK1181: cannot open input file 'gdi32.lib'
+     1>Done Building Project "D:\ErmIg\Simd\trunk\prj\vs2012\Test.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.12

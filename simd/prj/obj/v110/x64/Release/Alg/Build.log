@@ -1,0 +1,9 @@
+﻿Build started 23.02.2018 9:55:43.
+     1>Project "D:\ErmIg\Simd\trunk\prj\vs2012\Alg.vcxproj" on node 2 (Build target(s)).
+     1>Lib:
+         Alg.vcxproj -> D:\ErmIg\Simd\trunk\prj\vs2012\\..\..\bin\v110\x64\Release\Alg.lib
+     1>Done Building Project "D:\ErmIg\Simd\trunk\prj\vs2012\Alg.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.20

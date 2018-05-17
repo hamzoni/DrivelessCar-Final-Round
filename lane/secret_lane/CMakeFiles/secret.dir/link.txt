@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../build/libs/libsecret.a  CMakeFiles/secret.dir/secretlaneprocess.cpp.o
+/usr/bin/ranlib ../../build/libs/libsecret.a

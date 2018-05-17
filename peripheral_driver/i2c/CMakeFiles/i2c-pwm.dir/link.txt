@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../../libs/libi2c-pwm.a  CMakeFiles/i2c-pwm.dir/pca9685.cpp.o CMakeFiles/i2c-pwm.dir/api_i2c_pwm.cpp.o
+/usr/bin/ranlib ../../libs/libi2c-pwm.a

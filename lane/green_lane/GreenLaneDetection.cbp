@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GreenLaneDetection"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\usr\;CMake Files\..\..\..\..\usr\local\;CMake Files\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\usr\local\share\OpenCV\;CMake Files\lane\;CMake Files\lane\laneclass\;CMake Files\lane\normal_lane\;CMake Files\lane\green_lane\;CMake Files\lane\fuzzy\;CMake Files\lane\secret_lane\;CMake Files\detector\;CMake Files\getconf\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/nc/Desktop/prototype/lane/green_lane"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="green_lane">
+				<Option output="/home/nc/Desktop/prototype/build/libs/libgreen_lane.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane/green_lane"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 green_lane"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="green_lane/fast">
+				<Option output="/home/nc/Desktop/prototype/build/libs/libgreen_lane.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/nc/Desktop/prototype/lane/green_lane"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/nc/Desktop/prototype/lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/normal_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/green_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/laneclass"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/fuzzy"/>
+					<Add directory="/home/nc/Desktop/prototype/lane/secret_lane"/>
+					<Add directory="/home/nc/Desktop/prototype/detector"/>
+					<Add directory="/home/nc/Desktop/prototype/getconf"/>
+					<Add directory="/home/nc/Desktop/prototype/sign"/>
+					<Add directory="/home/nc/Desktop/prototype/traffic"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 green_lane/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/nc/Desktop/prototype/lane/green_lane/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/nc/Desktop/prototype/lane/green_lane/greenimageprocess.cpp">
+			<Option target="green_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/green_lane/greenimageprocess.h">
+			<Option target="green_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/green_lane/greenlaneprocess.cpp">
+			<Option target="green_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/green_lane/greenlaneprocess.h">
+			<Option target="green_lane"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lane\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/laneclass/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lane\laneclass\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/normal_lane/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lane\normal_lane\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/green_lane/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lane\green_lane\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/fuzzy/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lane\fuzzy\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/lane/secret_lane/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lane\secret_lane\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/detector/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\detector\"/>
+		</Unit>
+		<Unit filename="/home/nc/Desktop/prototype/getconf/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\getconf\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
